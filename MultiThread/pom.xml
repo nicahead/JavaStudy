@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>MT06</artifactId>
+    <artifactId>MultiThread</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

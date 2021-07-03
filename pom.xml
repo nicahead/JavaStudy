@@ -12,6 +12,7 @@
         <module>MT01</module>
         <module>MT06</module>
         <module>IO</module>
+        <module>MultiThread</module>
     </modules>
 
     <properties>

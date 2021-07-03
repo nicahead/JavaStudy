@@ -8,6 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 实现一个ArrayBlockingQueue
  */
 public class MyBlockingQueue<T> {
+
     // 有界队列内部固定长度,底层使用obj数组存储
     private Object[] data;
     // 定义两个指针，指向队列的头部和尾部
@@ -111,7 +112,7 @@ class MyProducerConsumerTest {
         MyConsumer consumer = new MyConsumer(queue);
         for (int i = 0; i < 5; i++) {
             new Thread(producer).start();
-//            new Thread(consumer).start();
+            new Thread(consumer).start();
         }
     }
 }

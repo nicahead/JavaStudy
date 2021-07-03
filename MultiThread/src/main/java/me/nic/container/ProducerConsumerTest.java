@@ -56,7 +56,7 @@ public class ProducerConsumerTest {
         Consumer consumer = new Consumer(queue);
         for (int i = 0; i < 5; i++) {
             new Thread(producer).start();
-            new Thread(consumer).start();
+//            new Thread(consumer).start();
         }
         System.out.println();
     }
